@@ -1,0 +1,205 @@
+{
+    "name": "holded",
+    "cards": [
+        {
+            "key": "action_1759831282284",
+            "width": 3,
+            "height": 5,
+            "icon": "list",
+            "color": "#ED4C46",
+            "name": "Proyectos de Holded",
+            "description": "Lista de proyectos desde Holded ",
+            "type": "action",
+            "params": {
+                "name": "name",
+                "status": "status",
+                "archived": "archived",
+                "customerId": "customerId",
+                "page": "page",
+                "limit": "limit"
+            },
+            "configParams": {
+                "name": {
+                    "visible": true,
+                    "defaultValue": "",
+                    "type": "text",
+                    "label": "Name (contiene)"
+                },
+                "status": {
+                    "visible": true,
+                    "defaultValue": "",
+                    "type": "text",
+                    "label": "Status"
+                },
+                "archived": {
+                    "visible": true,
+                    "defaultValue": "",
+                    "type": "text",
+                    "label": "Archived (true/false)"
+                },
+                "customerId": {
+                    "visible": true,
+                    "defaultValue": "",
+                    "type": "text",
+                    "label": "Customer ID"
+                },
+                "page": {
+                    "visible": true,
+                    "defaultValue": "",
+                    "type": "number",
+                    "label": "Page"
+                },
+                "limit": {
+                    "visible": true,
+                    "defaultValue": "",
+                    "type": "number",
+                    "label": "Limit"
+                }
+            }
+        },
+        {
+            "key": "action_1759831442844",
+            "width": 3,
+            "height": 5,
+            "icon": "users",
+            "color": "#ED4C46",
+            "name": "Empleados de Holded",
+            "description": "Lista de empleados desde Holded",
+            "type": "action"
+        },
+        {
+            "key": "value_1759831458996",
+            "width": 4,
+            "height": 4,
+            "icon": "key",
+            "name": "HOLDED API KEY",
+            "description": "Displays a key setter for a specific key or in case already set displays key is set",
+            "type": "value",
+            "params": {
+                "nameKey": "The key name to set"
+            },
+            "configParams": {
+                "nameKey": {
+                    "visible": true,
+                    "defaultValue": "HOLDED_API_KEY",
+                    "type": "string"
+                }
+            },
+            "customName": "HOLDED API KEY"
+        }
+    ],
+    "autopilot": false,
+    "layouts": {
+        "lg": [
+            {
+                "w": 26,
+                "h": 33,
+                "x": 0,
+                "y": 5,
+                "i": "action_1759831282284",
+                "moved": false,
+                "static": false,
+                "isResizable": true
+            },
+            {
+                "w": 23,
+                "h": 33,
+                "x": 26,
+                "y": 5,
+                "i": "action_1759831442844",
+                "moved": false,
+                "static": false,
+                "isResizable": true
+            },
+            {
+                "w": 49,
+                "h": 5,
+                "x": 0,
+                "y": 0,
+                "i": "value_1759831458996",
+                "moved": false,
+                "static": false,
+                "isResizable": true
+            }
+        ],
+        "md": [
+            {
+                "i": "action_1759831282284",
+                "x": 23,
+                "y": 6,
+                "w": 23,
+                "h": 6,
+                "isResizable": true
+            },
+            {
+                "i": "action_1759831442844",
+                "x": 0,
+                "y": 12,
+                "w": 23,
+                "h": 6,
+                "isResizable": true
+            },
+            {
+                "i": "value_1759831458996",
+                "x": 23,
+                "y": 17,
+                "w": 30,
+                "h": 5,
+                "isResizable": true
+            }
+        ],
+        "sm": [
+            {
+                "i": "action_1759831282284",
+                "x": 0,
+                "y": 7,
+                "w": 2,
+                "h": 6,
+                "isResizable": true
+            },
+            {
+                "i": "action_1759831442844",
+                "x": 0,
+                "y": 13,
+                "w": 2,
+                "h": 6,
+                "isResizable": true
+            },
+            {
+                "i": "value_1759831458996",
+                "x": 0,
+                "y": 19,
+                "w": 2,
+                "h": 5,
+                "isResizable": true
+            }
+        ],
+        "xs": [
+            {
+                "i": "action_1759831282284",
+                "x": 0,
+                "y": 7,
+                "w": 1,
+                "h": 6,
+                "isResizable": true
+            },
+            {
+                "i": "action_1759831442844",
+                "x": 0,
+                "y": 13,
+                "w": 1,
+                "h": 6,
+                "isResizable": true
+            },
+            {
+                "i": "value_1759831458996",
+                "x": 0,
+                "y": 19,
+                "w": 1,
+                "h": 5,
+                "isResizable": true
+            }
+        ]
+    },
+    "version": 6
+}

@@ -1,0 +1,17 @@
+{
+    "name": "holded",
+    "description": "holded api integration",
+    "author": "protofy",
+    "tags": [
+        "business",
+        "erp"
+    ],
+    "version": "0.0.1",
+    "packagedFiles": [
+        "extensions/holded/**",
+        "data/boards/holded/**",
+        "data/boards/holded_ui.js",
+        "data/boards/holded.js",
+        "data/boards/holded.json"
+    ]
+}
